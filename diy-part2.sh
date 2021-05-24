@@ -13,6 +13,7 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-chmod 777 target/linux/mediatek/image/
-# chmod 777 target/linux/mediatek/image/gen_mtk_mmc_img.sh
-# chmod 777 target/linux/mediatek/image/gen_scatterfile.sh
+
+chmod 777 target/linux/mediatek/image/gen_mtk_mmc_img.sh
+chmod 777 target/linux/mediatek/image/gen_scatterfile.sh
+chmod 777 target/linux/mediatek/image/gen_mt7623_emmc_img.sh
